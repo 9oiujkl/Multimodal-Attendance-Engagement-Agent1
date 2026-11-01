@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+*.venv
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Database and Local Data (Do not commit real student records)
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+!database/.gitkeep
+
+# Biometric embeddings and exports
+*.npy
+*.npz
+reports/*.csv
+reports/*.pdf
+!reports/.gitkeep
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+!assets/.gitkeep
+
+# Pretrained Model Weights (large binary files)
+models/*.onnx
+models/*.pb
+models/*.tflite
+!models/README.md
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
