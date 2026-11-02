@@ -1,22 +1,19 @@
-# Web Application & Interactive Visuals
+
 streamlit>=1.30.0
 plotly>=5.18.0
 matplotlib>=3.8.0
 
-# Computer Vision & Image Processing
-opencv-python>=4.8.0
+# Computer Vision
+opencv-python-headless>=4.10.0
 Pillow>=10.0.0
 
-# Numerical, Scientific & Machine Learning
+# Machine Learning
 numpy>=1.24.0
 pandas>=2.1.0
 scipy>=1.11.0
 scikit-learn>=1.4.0
 
-# Audio Signal Processing (SciPy + built-in wave provides 100% offline cross-platform processing)
-# soundfile / librosa are optional extensions
-
-# Document & PDF Report Generation
+# PDF Reports
 reportlab>=4.1.0
 
 # Testing
